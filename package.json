@@ -1,0 +1,31 @@
+{
+  "name": "ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "run": "tsc -w;supervisor ./dist/src/main.js"
+  },
+  "dependencies": {
+    "@types/jsonwebtoken": "^8.3.0",
+    "@types/koa": "^2.0.46",
+    "@types/koa-bodyparser": "^5.0.1",
+    "@types/koa-cors": "0.0.0",
+    "@types/koa-jwt": "^3.3.0",
+    "@types/koa-router": "^7.0.32",
+    "@types/koa-session": "^5.7.4",
+    "@types/mongoose": "^5.2.22",
+    "@types/mysql": "^2.15.5",
+    "jsonwebtoken": "^8.3.0",
+    "koa": "^2.6.1",
+    "koa-bodyparser": "^4.2.1",
+    "koa-core": "^1.0.8",
+    "koa-cors": "^0.0.16",
+    "koa-jwt": "^3.5.1",
+    "koa-router": "^7.4.0",
+    "koa-session": "^5.10.0",
+    "mongoose": "^5.3.8",
+    "mysql": "^2.16.0",
+    "typings": "^2.1.1"
+  }
+}

@@ -1,0 +1,5 @@
+node_modules
+dist
+
+dist/src/config/default.js
+src/config/default.ts

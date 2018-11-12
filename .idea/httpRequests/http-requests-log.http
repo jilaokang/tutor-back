@@ -1,0 +1,32 @@
+GET http://localhost:8080/signin?user=kaso
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-11-06T054953.200.json
+
+###
+
+GET http://localhost:8080/signin?user=kaso
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-11-06T054920.200.json
+
+###
+
+GET http://localhost:8080/signin?user=kaso
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-11-06T054902.200.json
+
+###
+
+GET http://localhost:8080/signin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-11-06T054849.200.json
+
+###
+
