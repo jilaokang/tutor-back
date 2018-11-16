@@ -1,7 +1,7 @@
 import * as Koa from "koa";
 import * as cors from "koa-cors";
 import * as bodyParser from "koa-bodyparser";
-import * as jwtKoa from "koa-jwt";
+// import * as jwtKoa from "koa-jwt";
 
 import router from "./router/main";
 import config from "./config/default";
